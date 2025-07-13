@@ -1,5 +1,5 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/M-Z-5474/swiggy-sales-prediction)
-![GitHub repo size](https://img.shields.io/github/repo-size/M-Z-5474/swiggy-sales-prediction)
+![GitHub last commit](https://img.shields.io/github/last-commit/M-Z-5474/swiggy_sales_predictor)
+![GitHub repo size](https://img.shields.io/github/repo-size/M-Z-5474/swiggy_sales_predictor)
 ![Python version](https://img.shields.io/badge/Python-3.10-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-orange?logo=streamlit)
