@@ -8,6 +8,8 @@
 
 # 🛒 Swiggy Instamart-Style Sales Prediction using Machine Learning
 
+[![Streamlit](https://img.shields.io/badge/Deployed%20on-Streamlit-ff4b4b?logo=streamlit&logoColor=white)](https://swiggysalespredictor-58tlpumxyim6ux5a4oiikh.streamlit.app/)
+
 A machine learning web app that predicts **item outlet sales** based on historical product and outlet data. Built using **XGBoost**, trained on the BigMart dataset, and deployed with **Streamlit Cloud**.
 
 ---
