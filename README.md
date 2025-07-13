@@ -36,6 +36,15 @@ A machine learning web app that predicts **item outlet sales** based on historic
 
 swiggy\_sales\_predictor/
 │
+├── 📁 data/
+│ ├── train.csv # Training data
+│ ├── test.csv # Test data
+│ └── final_predictions.xlsx # Model predictions
+│
+├── 📁 notebook/
+│ ├── Swiggy_Instamart_Sales_Prediction.ipynb # Full ML pipeline
+│ └── README.md # Notebook overview
+|
 ├── app.py                   # Streamlit app
 ├── requirements.txt         # All necessary Python packages
 ├── xgboost\_final\_model.pkl  # Trained XGBoost model
