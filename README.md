@@ -17,7 +17,7 @@ A machine learning web app that predicts **item outlet sales** based on historic
 
 ## 🚀 Live Demo
 
-👉 [Click to Try App on Streamlit] (https://swiggysalespredictor-58tlpumxyim6ux5a4oiikh.streamlit.app
+👉 Click on it for live demo: https://swiggysalespredictor-58tlpumxyim6ux5a4oiikh.streamlit.app
 
 ---
 
@@ -80,15 +80,6 @@ Made by **[Your Name](https://www.linkedin.com/in/your-profile/)**
 
 ---
 
-### ✅ To Use:
-
-- Replace:
-  - `https://<your-streamlit-cloud-url>` with your actual deployed app link
-  - `your-username` and `your-profile` with your GitHub & LinkedIn
-- Put this in your project folder as `README.md`
-- It will show automatically on GitHub
-
----
 
 Would you like me to generate the final `requirements.txt` and `app.py` now to complete your deployment package?
 ```
