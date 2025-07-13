@@ -17,7 +17,7 @@ A machine learning web app that predicts **item outlet sales** based on historic
 
 ## 🚀 Live Demo
 
-👉 [Click to Try App on Streamlit] https://<your-streamlit-cloud-url](https://swiggysalespredictor-58tlpumxyim6ux5a4oiikh.streamlit.app
+👉 [Click to Try App on Streamlit] (https://swiggysalespredictor-58tlpumxyim6ux5a4oiikh.streamlit.app
 
 ---
 
