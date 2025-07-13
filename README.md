@@ -87,8 +87,3 @@ streamlit run app.py
 ---
 
 
----
-
-
-Would you like me to generate the final `requirements.txt` and `app.py` now to complete your deployment package?
-```
