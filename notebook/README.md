@@ -1,4 +1,4 @@
-# 📓 Notebooks Folder
+# 📓 Notebook Folder
 
 This folder contains the main Google Colab notebook used in the **Swiggy Instamart Sales Prediction** project.
 
