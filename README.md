@@ -34,7 +34,7 @@ A machine learning web app that predicts **item outlet sales** based on historic
 
 ```
 
-swiggy\_sales\_predictor/
+swiggy_sales_predictor/
 │
 ├── 📁 data/
 │ ├── train.csv # Training data
@@ -100,8 +100,10 @@ streamlit run app.py
 🔗 LinkedIn: https://www.linkedin.com/in/muhammad-zain-m-a75163358/
 
 ---
+## 🌟 Star This Repo!
+## If you found this helpful, feel free to ⭐ this project. It motivates further contributions.
+Thank you for visiting! 🙌
 
-## 🌟 If you like this project, please consider giving it a ⭐ on GitHub!
 ---
 
 
