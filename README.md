@@ -73,10 +73,19 @@ streamlit run app.py
 
 ## 📧 Contact
 
-Made by **[Your Name](https://www.linkedin.com/in/your-profile/)**
-📬 Feel free to connect or ask for collaboration!
+**🙋‍♂️ Author Muhammad Zain Mushtaq**
 
-```
+🔗 GitHub: https://github.com/M-Z-5474
+
+📧 Email: m.zainmushtaq74@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/muhammad-zain-m-a75163358/
+
+---
+
+## 🌟 If you like this project, please consider giving it a ⭐ on GitHub!
+---
+
 
 ---
 
