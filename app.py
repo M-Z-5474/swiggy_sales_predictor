@@ -22,11 +22,25 @@ for file in encoder_files:
     col_name = file.replace("le_", "").replace(".pkl", "")
     encoders[col_name] = joblib.load(file)
 
+# ✅ Feature order used during training
+feature_order = [
+    'Item_Weight',
+    'Item_Fat_Content',
+    'Item_Visibility',
+    'Item_Type',
+    'Item_MRP',
+    'Outlet_Identifier',
+    'Outlet_Size',
+    'Outlet_Location_Type',
+    'Outlet_Type',
+    'Outlet_Years',
+    'Item_Category'
+]
+
 # -----------------------------
 # Streamlit App UI
 # -----------------------------
 st.set_page_config(page_title="🛒 Swiggy Instamart Sales Predictor", layout="centered")
-
 st.title("🛒 Swiggy Instamart Sales Predictor")
 st.write("Predict sales based on item and outlet details.")
 
@@ -53,6 +67,7 @@ with st.form("input_form"):
     outlet_size = st.selectbox("Outlet Size", ['Small', 'Medium', 'High'])
     outlet_loc = st.selectbox("Outlet Location Type", ['Tier 1', 'Tier 2', 'Tier 3'])
     outlet_type = st.selectbox("Outlet Type", ['Supermarket Type1', 'Supermarket Type2', 'Supermarket Type3', 'Grocery Store'])
+
     item_category = st.selectbox("Item Category Code", [0, 1, 2])  # DR=0, FD=1, NC=2
 
     submitted = st.form_submit_button("🔍 Predict")
@@ -81,8 +96,11 @@ if submitted:
     for col in encoders:
         df[col] = encoders[col].transform(df[col])
 
-    # Predict
-    pred_log = model.predict(df)
-    pred = np.expm1(pred_log[0])
+    # ✅ Reorder columns to match training feature order
+    df = df[feature_order]
 
-    st.success(f"💰 **Predicted Sales: ₹{round(pred, 2)}**")
+    # Predict
+    y_pred_log = model.predict(df)
+    y_pred = np.expm1(y_pred_log[0])  # Reverse log1p
+
+    st.success(f"💰 **Predicted Sales: ₹{round(y_pred, 2)}**")
