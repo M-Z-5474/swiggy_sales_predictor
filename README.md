@@ -1,3 +1,10 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/swiggy-sales-prediction)
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/swiggy-sales-prediction)
+![Python version](https://img.shields.io/badge/Python-3.10-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-orange?logo=streamlit)
+
+[![Open in Colab](https://img.shields.io/badge/Open%20in-Google%20Colab-yellow?logo=googlecolab)](https://colab.research.google.com/drive/your-colab-id-here)
 
 # 🛒 Swiggy Instamart-Style Sales Prediction using Machine Learning
 
