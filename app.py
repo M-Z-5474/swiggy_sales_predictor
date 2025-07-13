@@ -13,7 +13,7 @@ st.set_page_config(page_title="Swiggy Sales App", layout="wide")
 
 # Background image
 def set_bg():
-    bg_img = "https://insideretail.asia/wp-content/uploads/2024/04/big-c-hypermarket.png"
+    bg_img = "https://free-barcode.com/barcode/inventory-management/key-components-regression-analysis-sales-forecasting/2.jpg"
     st.markdown(
         f"""
         <style>
