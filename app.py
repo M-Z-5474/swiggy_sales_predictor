@@ -10,30 +10,6 @@ from io import BytesIO
 # ------------------- CONFIG -------------------
 st.set_page_config(page_title="Swiggy Sales App", layout="wide")
 
-# ------------------- THEME TOGGLE -------------------
-theme = st.sidebar.radio("🎨 Theme", ["Light", "Dark"], horizontal=True)
-
-def apply_theme(theme):
-    if theme == "Dark":
-        st.markdown("""
-            <style>
-            .stApp {
-                background-color: #1E1E1E;
-                color: #ffffff;
-            }
-            .stButton > button {
-                color: white;
-                background-color: #FF4B4B;
-            }
-            .stSelectbox label, .stNumberInput label, .stRadio label {
-                color: white;
-            }
-            .css-1v0mbdj, .css-q8sbsg { color: white; }
-            </style>
-        """, unsafe_allow_html=True)
-
-apply_theme(theme)
-
 # ------------------- LOAD MODEL & ENCODERS -------------------
 model = joblib.load("xgboost_final_model.pkl")
 encoder_files = [
