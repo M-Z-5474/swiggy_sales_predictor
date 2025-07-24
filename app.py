@@ -123,7 +123,19 @@ elif page == "ℹ️ About":
     st.markdown("""
     **🛒 App Name:** Swiggy Instamart Sales Predictor  
     **📌 Description:** A machine learning web app that predicts product sales based on outlet and item features using a trained XGBoost model.  
-    **👨‍💻 Developed By:** Muhammad Zain Mushtaq  
-    **🔗 GitHub:** [github.com/M-Z-5474](https://github.com/M-Z-5474)  
-    """)
+  
+### 👨‍💻 Developer Info
+
+**Muhammad Zain Mushtaq**  
+AI/ML & Data Science Enthusiast | IT Graduate  
+📍 Pakistan  
+🔗 [GitHub](https://github.com/M-Z-5474) | [LinkedIn](https://www.linkedin.com/in/muhammad-zain-m-a75163358/)
+""")
+
+# Footer
+st.markdown("---")
+st.markdown(
+    "Built with ❤️ by [Muhammad Zain Mushtaq](https://github.com/M-Z-5474) • "
+    "[View GitHub Repo](https://github.com/M-Z-5474/swiggy_sales_predictor)"
+)
 
